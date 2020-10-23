@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de ambito de variables</title>
+</head>
+<body>
+    <label>Ingrese su nombre y presione enter</label>
+    <input type="text" name="nombre" onchange="mostrarNombre(this)">
+    <div id="resultado">
+        <button onclick="saludarLocal('carlos')">Saludo Local</button>
+        <br>
+        <button onclick="saludarGlobal()">Saludo Global</button>
+    </div>
+    <script src="programa.js"></script>
+</body>
+</html>

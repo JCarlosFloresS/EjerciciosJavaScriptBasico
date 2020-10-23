@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If else</title>
+</head>
+<body>
+    <h1>Programa para determinar la clasificación por edades en cine</h1>
+
+    <label for="edad">Ingresa la edad y presiona enter</label>
+    <input type="text" name="edad" onchange="determinaClasificacionporEdades(this)">
+    <br>
+    <br>
+    <div>
+        <h2>Peliculas con clasificación sugeridas:</h2>
+    </div>
+    <div id="resultado" style="color: red;"></div>
+    
+    <script src="programa.js"></script>
+</body>
+</html>
